@@ -43,7 +43,7 @@ const MatchDetail = () => {
 
     // Set up WebSocket connection
     const newSocket = io('ws://localhost:8000/ws/match/', {
-      path: '/ws/socket.io',
+      path: '/ws/match',
       query: { match_id: id }
     });
     
